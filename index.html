@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Vestibule 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130406
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vestibule  by TEMPLATED</title>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="js/home.js"></script>
+
+   <!-- <script>
+        $( document ).ready(function() {
+            $("#myModal").modal("hidder");
+        });
+    </script>-->
+
+</head>
+<body>
+<!--模組-->
+<div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog" >
+        <div class="modal-dialog"  >
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header" >
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" id="Menu name">菜單</h4>
+                </div>
+                <div class="modal-body">
+                    <p id="Menu_touch"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--模組結束-->
+<div id="wrapper">
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+
+				<li class="current_page_item"><a href="index.html">首頁</a></li>
+
+				<li>
+                    <a href ="訂單.html">訂單</a>
+                </li>
+
+				<li><a href="#">登入</a></li>
+				<li><a href="#">註冊</a></li>
+
+			</ul>
+		</div>
+	</div>
+	<div id="logo" class="container">
+		<h1><a href="#">好嗨喔 ～ 早餐王</a></h1>
+		<br>
+		<p>吃完早餐 ～ 人生已達到顛峰</p>
+	</div>
+	<div id="page" class="container">
+	</div>
+	<div id="three-column1" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/三明治.jpg" width="324" height="200" alt="" /></div>
+					<h2>三明治</h2>
+					<a data-toggle="modal" data-target="#myModal" class="button" onclick="home_load('三明治')">碰一下</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2" >
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/漢堡.jpg" width="324" height="200" alt="" /></div>
+					<h2>漢堡</h2>
+					<a data-toggle="modal" data-target="#myModal" class="button" onclick="home_load('漢堡')">碰一下</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3" style="margin-top: -410px">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/飲品.jpg" width="324" height="200" alt="" /></div>
+					<h2>飲品</h2>
+					<a data-toggle="modal" data-target="#myModal" class="button" onclick="home_load('飲品')">碰一下</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="three-column" class="container">
+		<div class="tbox1">
+			<div class="box-style box-style01">
+				<div class="content">
+					<div class="image"><img src="images/鍋燒.jpg" width="324" height="200" alt="" /></div>
+					<h2>鍋燒</h2>
+					<a data-toggle="modal" data-target="#myModal" class="button" onclick="home_load('鍋燒')">碰一下</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="box-style box-style02">
+				<div class="content">
+					<div class="image"><img src="images/炸物.jpg" width="324" height="200" alt="" /></div>
+					<h2>炸物</h2>
+					<a data-toggle="modal" data-target="#myModal" class="button" onclick="home_load('炸物')">碰一下</a>
+				</div>
+			</div>
+		</div>
+		<div class="tbox3" style="margin-top: -410px">
+			<div class="box-style box-style03">
+				<div class="content">
+					<div class="image"><img src="images/羅伯糕.jpg" width="324" height="200" alt="" /></div>
+					<h2>特色餐點 </h2>
+					<a data-toggle="modal" data-target="#myModal" class="button" onclick="home_load('特色餐點')">碰一下</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>© 2019.嗨翻天 <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.  Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
